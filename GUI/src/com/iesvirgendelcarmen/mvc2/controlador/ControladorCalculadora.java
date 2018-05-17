@@ -14,8 +14,6 @@ public class ControladorCalculadora implements ActionListener {
 
 
 	public ControladorCalculadora(Calculadora1 vista) {
-		System.out.println("pepep");
-
 		this.vista = vista;
 		registrarBotones();
 	}
